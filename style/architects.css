@@ -86,7 +86,7 @@ margin: 20px 140px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 50px;
+    margin-top: 90px;
   }
   .skills{
     gap: 10px;
@@ -107,6 +107,46 @@ margin: 20px 140px;
   .skills-title{
     margin: 0px 50px;
   }
+/* fecture styles */
+.fecture{
+  margin-top: 90px;
+  display: grid;
+  gap: 70px;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+.fecture-container .card{
+border-radius: 8px;
+background-color: #fff;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+padding: 0px 5px;
+margin-bottom: 8px;
+}
+.fecture-text{
+  border-left: 5px solid #ff900e;
+  padding-left: 10px;
+}
+.fecture-img img{
+/* height: 95%; */
+margin-left: 40px;
+}
+.img-year{
+  border-radius: 5px;
+  background-color: #ff900e;
+  color: #fff;
+  padding: 5px;
+  width: 220px;
+  /* align-items: center;
+   */
+   text-align: center;
+   position: relative;
+   bottom: 50px;
+}
+.img-year h2{
+  font-size: 40px;
+margin: 0px;
+}
+
   .list{
     color: olivedrab;
   }
@@ -134,7 +174,7 @@ margin: 20px 140px;
   }
   .sponsor{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
   }
   .sponsor-item {
     display: flex;
@@ -155,3 +195,4 @@ margin: 20px 140px;
     padding: 50px 0px;
     color: whitesmoke;
   }
+  
